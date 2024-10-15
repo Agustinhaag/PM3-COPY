@@ -1,0 +1,68 @@
+.turns-bg {
+  background-color: rgba(220, 220, 220, 0.514);
+}
+.contact {
+  background-image: url(/fondo4.jpg);
+  background-position: top center;
+}
+.cont-input-appointment {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: auto;
+}
+.cont-input-appointment input,
+.cont-input-appointment textarea {
+  outline: none;
+  width: 100%;
+  padding: 7px;
+  border-radius: 12px;
+  border: 1px solid rgb(124, 124, 124);
+  height: 42px;
+}
+.cont-input textarea {
+  outline: none;
+  width: 100%;
+  padding: 7px;
+  background-color: rgba(220, 220, 220, 0.438);
+  border-radius: 12px;
+  border: 1px solid rgb(124, 124, 124);
+  height: 82px;
+}
+
+.cont-input input::placeholder,
+.cont-input textarea::placeholder {
+  color: rgb(75, 75, 75);
+}
+.cont-input-appointment span {
+  margin-top: 3px;
+}
+.cont-btn button {
+  border: 1px solid var(--color-esp);
+  color: var(--color-esp);
+}
+.cont-btn button:hover {
+  background-color: var(--color-esp);
+  color: white;
+}
+form .cont-input-appointment input.error,
+form .cont-input-appointment textarea.error {
+  border: 1px solid red;
+}
+
+.appointments .cancel {
+  color: var(--color-esp);
+  border: 1px solid var(--color-esp);
+}
+.appointments .cancel:hover {
+  background-color: var(--color-esp);
+}
+
+@media (max-width: 640px) {
+  .cont-input-appointment {
+    width: 100%;
+  }
+  .cont-input-appointment span {
+    text-align: left;
+  }
+}

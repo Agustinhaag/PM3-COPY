@@ -1,0 +1,54 @@
+h2 {
+  text-decoration: 1.5px underline var(--color-esp);
+}
+.login {
+  background-image: url(/fondo2.jpg);
+  max-width: none;
+  background-position: top center;
+}
+.cont-login {
+  background-color: rgba(124, 124, 124, 0.685);
+}
+.cont-form form .cont-input {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 100%;
+}
+.cont-form form .cont-input label {
+  font-weight: 500;
+}
+.cont-form form .cont-input input {
+  margin-top: 5px;
+  outline: none;
+  width: 100%;
+  padding: 7px;
+  border-radius: 12px;
+  border: 1px solid rgb(124, 124, 124);
+  background-color: rgba(220, 220, 220, 0.63);
+}
+
+.cont-form form .cont-input input.error,
+.cont-form form .cont-input textarea.error {
+  border: 1px solid red;
+}
+.cont-form form .cont-input span {
+  display: flex;
+  justify-content: left;
+  margin: 3px 0;
+}
+
+.cont-form form .cont-btn button, .btn-Profile {
+  border: 1px solid var(--color-esp);
+  color: var(--color-esp);
+}
+.cont-form form .cont-btn button:hover, .btn-Profile:hover {
+  color: white;
+  background-color: var(--color-esp);
+}
+.cont-form p a {
+  color: var(--color-esp);
+}
+.cont-form p a:hover {
+  text-decoration: underline var(--color-esp);
+}
